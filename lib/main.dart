@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text(appTitle),
           centerTitle: true,
+          toolbarHeight: 50,
         ),
         body: const Center(
           child: SingleChildScrollView(
